@@ -1,20 +1,23 @@
 ---
 home: true
-heroImage: /logo.png
-heroAlt: Logo image
-heroText: Hero Title
-tagline: Hero subtitle
+heroImage: /logo.svg
 actionText: Get Started
 actionLink: /guide/
+altActionText: Learn More
+altActionLink: /guide/why
+
 features:
-
-- title: Simplicity First
-  details: Minimal setup with markdown-centered project structure helps you focus on writing.
-- title: Vue-Powered
-  details: Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue.
-- title: Performant
-  details: VitePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded.
-footer: MIT Licensed | Copyright © 2019-present Mark (圣痕)
+  - title: 💡 Instant Server Start
+    details: On demand file serving over native ESM, no bundling required!
+  - title: ⚡️ Lightning Fast HMR
+    details: Hot Module Replacement (HMR) that stays fast regardless of app size.
+  - title: 🛠️ Rich Features
+    details: Out-of-the-box support for TypeScript, JSX, CSS and more.
+  - title: 📦 Optimized Build
+    details: Pre-configured Rollup build with multi-page and library mode support.
+  - title: 🔩 Universal Plugins
+    details: Rollup-superset plugin interface shared between dev and build.
+  - title: 🔑 Fully Typed APIs
+    details: Flexible programmatic APIs with full TypeScript typing.
+footer: MIT Licensed | Copyright © 2019-present Mark & Apollo Contributors
 ---
-
-# Hello VitePress
