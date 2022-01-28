@@ -44,32 +44,32 @@ module.exports = defineConfig({
       'error',
       {
         // for try-catching yarn pnp
-        allowModules: ['pnpapi', 'vite'],
+        allowModules: ['pnpapi', 'apollo'],
         tryExtensions: ['.ts', '.js', '.jsx', '.tsx', '.d.ts']
       }
     ],
     'node/no-restricted-require': [
       'error',
-      Object.keys(require('./packages/vite/package.json').devDependencies).map(
-        (d) => ({
-          name: d,
-          message:
-            `devDependencies can only be imported using ESM syntax so ` +
-            `that they are included in the rollup bundle. If you are trying to ` +
-            `lazy load a dependency, use (await import('dependency')).default instead.`
-        })
-      )
+      Object.keys(
+        require('./packages/apollo/package.json').devDependencies
+      ).map((d) => ({
+        name: d,
+        message:
+          `devDependencies can only be imported using ESM syntax so ` +
+          `that they are included in the rollup bundle. If you are trying to ` +
+          `lazy load a dependency, use (await import('dependency')).default instead.`
+      }))
     ],
     'node/no-extraneous-import': [
       'error',
       {
-        allowModules: ['vite', 'less', 'sass']
+        allowModules: ['apollo', 'less', 'sass']
       }
     ],
     'node/no-extraneous-require': [
       'error',
       {
-        allowModules: ['vite']
+        allowModules: ['apollo']
       }
     ],
     'node/no-deprecated-api': 'off',
@@ -97,13 +97,13 @@ module.exports = defineConfig({
   },
   overrides: [
     {
-      files: ['packages/vite/src/node/**'],
+      files: ['packages/apollo/src/node/**'],
       rules: {
         'no-console': ['error']
       }
     },
     {
-      files: ['packages/vite/types/**'],
+      files: ['packages/apollo/types/**'],
       rules: {
         'node/no-extraneous-import': 'off'
       }
@@ -116,7 +116,7 @@ module.exports = defineConfig({
       }
     },
     {
-      files: ['packages/create-vite/template-*/**'],
+      files: ['packages/create-apollo/template-*/**'],
       rules: {
         'node/no-missing-import': 'off'
       }

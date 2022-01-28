@@ -1,0 +1,17 @@
+{
+  "name": "apollo-react-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "apollo",
+    "build": "apollo build",
+    "preview": "apollo preview"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^1.0.7",
+    "apollo": "^0.0.1"
+  }
+}

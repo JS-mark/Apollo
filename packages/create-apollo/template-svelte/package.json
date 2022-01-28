@@ -1,0 +1,15 @@
+{
+  "name": "apollo-svelte-starter",
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "apollo",
+    "build": "apollo build",
+    "preview": "apollo preview"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^1.0.0-next.30",
+    "svelte": "^3.44.0",
+    "apollo": "^0.0.1"
+  }
+}

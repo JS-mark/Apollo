@@ -62,14 +62,15 @@
     "ts-jest": "^27.1.3",
     "ts-node": "^10.4.0",
     "typescript": "~4.5.5",
+    "vite": "^2.7.13",
     "vitepress": "^0.21.6"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JS-mark/Apollo.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Mark(圣痕)",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/JS-mark/Apollo/issues"
   },

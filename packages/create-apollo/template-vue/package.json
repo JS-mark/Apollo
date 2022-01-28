@@ -1,0 +1,16 @@
+{
+  "name": "apollo-vue-starter",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "apollo",
+    "build": "apollo build",
+    "preview": "apollo preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.25"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.0.0",
+    "apollo": "^0.0.1"
+  }
+}
