@@ -1,7 +1,7 @@
 {
-  "name": "@apollo/cli",
+  "name": "@tm2js/apollo-cli",
   "version": "0.0.1",
-  "description": "@apollo/cli 脚手架",
+  "description": "@tm2js/apollo-cli 脚手架",
   "scripts": {
     "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path . --lerna-package @apollo/cli",
     "release": "ts-node updateVersions && ts-node ../../scripts/release.ts --skipBuild"
@@ -9,7 +9,8 @@
   "devDependencies": {},
   "keywords": [
     "cli",
-    "@apollo/cli"
+    "rspack",
+    "@tm2js/apollo-cli"
   ],
   "license": "MIT",
   "author": "Mark(圣痕)",

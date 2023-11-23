@@ -1,6 +1,5 @@
 #!/usr/bin/env node
 
-// @ts-nocheck
 const fs = require('fs')
 const path = require('path')
 // Avoids autoconversion to number of the project name by defining that the args

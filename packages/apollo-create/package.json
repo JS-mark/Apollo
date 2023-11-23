@@ -1,5 +1,5 @@
 {
-  "name": "@apollo/create",
+  "name": "@tm2js/apollo-create",
   "version": "0.0.1",
   "license": "MIT",
   "author": "Mark(圣痕)",
@@ -13,7 +13,7 @@
   ],
   "main": "index.js",
   "scripts": {
-    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path . --lerna-package create-apollo",
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path . --lerna-package apollo-create",
     "release": "ts-node updateVersions && ts-node ../../scripts/release.ts --skipBuild"
   },
   "engines": {
@@ -22,12 +22,12 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/JS-mark/Apollo.git",
-    "directory": "packages/create-apollo"
+    "directory": "packages/apollo-create"
   },
   "bugs": {
     "url": "https://github.com/JS-mark/Apollo/issues"
   },
-  "homepage": "https://github.com/JS-mark/Apollo/tree/main/packages/create-apollo#readme",
+  "homepage": "https://github.com/JS-mark/Apollo/tree/main/packages/apollo-create#readme",
   "dependencies": {
     "kolorist": "^1.5.1",
     "minimist": "^1.2.5",

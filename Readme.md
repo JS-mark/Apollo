@@ -6,8 +6,9 @@
 
 ```json
 // pnpm 重写路径
-"overrides": {
-  "vite": "workspace:*",
-  "@vitejs/plugin-vue": "workspace:*"
+{
+  "overrides": {
+    "@tm2js/apollo": "workspace:*",
+  }
 }
 ```

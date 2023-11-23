@@ -1,0 +1,40 @@
+{
+  "name": "@tm2js/plugin-cdn",
+  "version": "0.0.1",
+  "license": "MIT",
+  "author": "Mark (圣痕)",
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "main": "index.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s --commit-path . --lerna-package plugin-cdn",
+    "release": "ts-node ../../scripts/release.ts --skipBuild"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/js-mark/Apollo.git",
+    "directory": "packages/plugin-cdn"
+  },
+  "bugs": {
+    "url": "https://github.com/js-mark/apollo/issues"
+  },
+  "homepage": "https://github.com/js-mark/apollo/tree/main/packages/plugin-cdn#readme",
+  "dependencies": {
+    "chalk": "^5.0.0",
+    "open": "^8.4.0",
+    "vinyl-fs": "^3.0.3",
+    "vinyl-ftp": "^0.6.1"
+  },
+  "peerDependencies": {
+    "@tm2js/apollo-core": "workspace:*"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "description": ""
+}
